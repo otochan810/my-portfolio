@@ -1,0 +1,116 @@
+body{
+    background-color: aliceblue;
+    
+}
+header{
+    height: 80px;
+    background-color: rgb(197, 208, 243);
+    background-image: 
+    radial-gradient(rgba(0, 0, 255, 0.205) 30%, transparent 30%),
+    radial-gradient(rgba(0, 140, 255, 0.256) 50%, transparent 30%);
+    background-size:  40px 40px;
+    background-position: 0px 0px, 20px 20px ;
+    color: snow;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+}
+footer{
+    height: 180px;
+    background-color: rgb(197, 208, 243);
+    color: snow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 75px;
+
+}
+
+.all{
+    background-color: rgba(255, 255, 255, 0.639);
+    margin: 100px;
+    padding: 20px;
+    border: bold 2px ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    width: 80%;
+    box-shadow: 0px 0px 0px 5px rgb(198, 229, 255);
+    border: dashed 5px  rgb(198, 229, 255);
+    border-radius: 30px;
+
+    
+}
+h1{
+    color: rgb(209, 130, 243);
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    margin: 30px;
+    text-decoration: underline;
+}
+.container {
+    margin: 50px;
+    text-align: left;
+}
+.contents{
+    display: flex;
+    text-align: left;
+    font-size: 20px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.hobbies {
+    background-color: rgb(252, 233, 233);
+    text-align: left;
+    size: 20px;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0px 0px 0px 15px rgb(252, 233, 233);
+    border: dashed 3px rgb(246, 170, 170);
+    border-radius: 10px;
+}
+.myhobbies {
+    text-align: left;
+    white-space: pre;  
+
+}
+.profiles{
+    background-color: rgb(197, 248, 239);
+    text-align: left;
+    size:20px;
+    padding: 20px;
+    width: 45%;
+    margin-right: 10%;
+    box-shadow: 0px 0px 0px 15px rgb(197, 248, 239);
+    border: dashed 3px rgb(108, 246, 221);
+    border-radius: 10px;
+    
+}
+.myprofile{
+    text-align: left;
+    white-space: pre;   
+}
+.profile{
+    margin: 10px;    
+}
+.Italy{
+    margin-top: 80px;
+    background-color: whitesmoke;
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 15px whitesmoke;
+    border: dashed 3px rgb(222, 221, 221);
+    border-radius: 10px;
+}
+.sites{
+    display: flex;
+    padding: 20px;
+}
+.names{
+    text-align: center;
+    margin:end;
+}
